@@ -1,15 +1,14 @@
 # Ahad Khan
 
-GenAI engineer at Capgemini building retrieval and agent systems on top of LLMs — mostly Python, FastAPI, and the Azure AI stack. Previously: B.Tech in IT, GL Bajaj Institute.
+**AI engineer @ Capgemini** — building retrieval and agent systems on top of LLMs. Mostly Python, FastAPI, and the Azure AI stack. Previously: B.Tech in IT, GL Bajaj Institute.
 
-This profile is a mix of shipped work and honest work-in-progress. The repos below are the ones I'd point at if you asked what I've built.
+A mix of shipped work and honest work-in-progress — these are the repos I'd point at if you asked what I've built.
 
 ## Now
 
-- Preparing for AI engineering roles — keeping the [ai-engineer-interview-bible](https://github.com/ahadkhan9/ai-engineer-interview-bible) current with assignment write-ups and hiring-practice research
-- Reproducing papers: [MiA-RAG](https://github.com/ahadkhan9/MiA-RAG) is a paper-accurate implementation of Mindscape-Aware RAG (arXiv:2512.17220) using the official MiA-Emb-0.6B embedding model
-- Working through *Hands-On LLMs* hands-on, logging it in [llm-learning-log](https://github.com/ahadkhan9/llm-learning-log)
-- Running [ahad.works](https://ahad.works) — self-hosted infra with Caddy, Docker, and deploy scripts ([infra](https://github.com/ahadkhan9/infra))
+- **MiA-RAG** — paper-accurate implementation of Mindscape-Aware RAG ([arXiv:2512.17220](https://arxiv.org/abs/2512.17220)) with the official MiA-Emb-0.6B embedding model
+- **llm-learning-log** — daily notes from working through *Hands-On LLMs*
+- **ahad.works** — self-hosted infra: Caddy, Docker, deploy scripts ([infra](https://github.com/ahadkhan9/infra))
 
 ## Selected work
 
@@ -21,10 +20,8 @@ This profile is a mix of shipped work and honest work-in-progress. The repos bel
 
 ## Stack
 
-Python · FastAPI · AG2 · LangChain · Azure AI Search / OpenAI · ChromaDB · Docker · Java
+`Python · FastAPI · AG2 · LangChain · Azure AI Search / OpenAI · ChromaDB · Docker · Java`
 
-## Find me
+## Elsewhere
 
-- [ahad.works](https://ahad.works)
-- [LinkedIn](https://www.linkedin.com/in/ahadkhan9)
-- ahadkhan5547@gmail.com
+[ahad.works](https://ahad.works) · [LinkedIn](https://www.linkedin.com/in/ahadkhan9) · ahadkhan5547@gmail.com
