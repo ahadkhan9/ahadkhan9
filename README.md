@@ -1,27 +1,20 @@
 # Ahad Khan
 
-**AI engineer @ Capgemini** — building retrieval and agent systems on top of LLMs. Mostly Python, FastAPI, and the Azure AI stack. Previously: B.Tech in IT, GL Bajaj Institute.
+**AI Engineer @ Capgemini** in Bengaluru — building production multi-agent workflows, MCP tool integrations, and hybrid RAG pipelines across GCP and Azure. B.Tech IT, GL Bajaj Institute.
 
-A mix of shipped work and honest work-in-progress — these are the repos I'd point at if you asked what I've built.
+## Selected Systems & Research
 
-## Now
+- **[Meridian](https://meridian.ahad.works)** — self-hosted LangGraph agent and Corrective RAG server (`FastAPI`, `FastMCP`, `PostgreSQL pgvector + tsvector BM25 + RRF`, `<15ms` semantic cache, prompt-injection & PII guardrails, `RAGAS` evals).
+- **[MiA-RAG](https://github.com/ahadkhan9/MiA-RAG)** — local reproduction of Mindscape-Aware RAG ([arXiv:2512.17220](https://arxiv.org/abs/2512.17220)) using `INT4`-quantized `LoRA` embeddings (`MiA-Emb-8B`), `Qwen2.5-14B` via `Ollama`, and 3-channel `ChromaDB + BM25 + RRF` retrieval (+25% on NarrativeQA).
+- **[workspace-mirror-skill](https://github.com/ahadkhan9/workspace-mirror-skill)** — local SQLite/JSONL session mirror and standalone offline HTML viewer for Google Antigravity IDE.
+- **[docsmelt](https://github.com/ahadkhan9/docsmelt)** ([docsmelt.vercel.app](https://docsmelt.vercel.app)) — 100% client-side document-to-Markdown converter running in-browser via WebAssembly.
+- **[ai-agents-in-depth-graph](https://github.com/ahadkhan9/ai-agents-in-depth-graph)** — interactive knowledge graph mapping 1,175 concepts and 1,545 typed relationships across agentic architectures.
+- **[document-intelligence-rag](https://github.com/ahadkhan9/document-intelligence-rag)** & **[hf-models](https://github.com/ahadkhan9/hf-models)** — Azure AI Search hybrid retrieval reference pipeline and quantized GGUF weights.
 
-- **MiA-RAG** — paper-accurate implementation of Mindscape-Aware RAG ([arXiv:2512.17220](https://arxiv.org/abs/2512.17220)) with the official MiA-Emb-0.6B embedding model
-- **llm-learning-log** — daily notes from working through *Hands-On LLMs*
-- **ahad.works** — self-hosted infra: Caddy, Docker, deploy scripts ([infra](https://github.com/ahadkhan9/infra))
+## Core Stack
 
-## Selected work
+`Python · FastAPI · Google ADK · LangGraph · AutoGen · MCP · PostgreSQL (pgvector) · Vertex AI Search · Azure AI Search · GCP · Azure · Docker · DeepEval / RAGAS · OpenTelemetry`
 
-- [ai-gym-memory-system](https://github.com/ahadkhan9/ai-gym-memory-system) — conversational logger that turns free-text workout and activity input into structured records, with Gemini intent extraction and embedding-based semantic recall
-- [document-intelligence-rag](https://github.com/ahadkhan9/document-intelligence-rag) — enterprise RAG on Azure AI Search: chunking, vector embeddings, grounded generation, with hallucination checks
-- [Agentic-RAG](https://github.com/ahadkhan9/Agentic-RAG) — multi-agent RAG for manufacturing document Q&A
-- [MiA-RAG](https://github.com/ahadkhan9/MiA-RAG) — research-paper reproduction (see Now)
-- [workspace-mirror-skill](https://github.com/ahadkhan9/workspace-mirror-skill) — an agent skill for the Antigravity IDE that mirrors conversation and IDE state into a standalone, offline HTML dashboard
+## Links
 
-## Stack
-
-`Python · FastAPI · AG2 · LangChain · Azure AI Search / OpenAI · ChromaDB · Docker · Java`
-
-## Elsewhere
-
-[ahad.works](https://ahad.works) · [LinkedIn](https://www.linkedin.com/in/ahadkhan9) · ahadkhan5547@gmail.com
+[ahad.works](https://www.ahad.works) · [LinkedIn](https://www.linkedin.com/in/ahadkhan9) · ahadkhan5547@gmail.com
